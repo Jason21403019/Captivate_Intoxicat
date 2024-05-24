@@ -1,0 +1,37 @@
+
+//中文引入
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+//英文引入
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif+TC:wght@200..900&display=swap');
+
+$fontSize: 16px;
+$letterspacing: 6px;
+$lineheight: 1.6em;
+$fontfamily: 'Noto Serif TC', sans-serif;
+
+// ======================================= //
+
+//中文字大標體
+h1{
+    font-size: $fontSize * 6; //96pxｚ
+    letter-spacing: $letterspacing;
+    line-height: $lineheight;
+    font-family: $fontfamily;
+}
+
+//中文字副標體
+h2{
+    font-size: $fontSize * 5; //80px
+    letter-spacing: $letterspacing;
+    line-height: $lineheight;
+    font-family: $fontfamily;
+}
+
+
+//中文字副標體
+h3{
+    font-size: $fontSize * 2; //80px
+    letter-spacing: $letterspacing;
+    line-height: $lineheight;
+    font-family: $fontfamily;
+}
