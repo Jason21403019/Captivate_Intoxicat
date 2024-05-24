@@ -4,34 +4,59 @@
 //英文引入
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif+TC:wght@200..900&display=swap');
 
-$fontSize: 16px;
+$fontSize: 8px;
 $letterspacing: 6px;
 $lineheight: 1.6em;
 $fontfamily: 'Noto Serif TC', sans-serif;
 
 // ======================================= //
 
-//中文字大標體
+// 圖片大標題
 h1{
-    font-size: $fontSize * 6; //96pxｚ
+    font-size: $fontSize * 12; //96px
     letter-spacing: $letterspacing;
     line-height: $lineheight;
     font-family: $fontfamily;
 }
 
-//中文字副標體
+// 頁面標題
 h2{
-    font-size: $fontSize * 5; //80px
+    font-size: $fontSize * 10; //80px
     letter-spacing: $letterspacing;
     line-height: $lineheight;
     font-family: $fontfamily;
 }
 
 
-//中文字副標體
+// 分類圖文字
 h3{
-    font-size: $fontSize * 2; //80px
+    font-size: $fontSize * 4; //32px
     letter-spacing: $letterspacing;
+    line-height: $lineheight;
+    font-family: $fontfamily;
+}
+
+// 產品頁左側選單文字
+h4{
+    font-size: $fontSize + 4; //20px
+    letter-spacing: $letterspacing - 3;
+    line-height: $lineheight;
+    font-family: $fontfamily;
+}
+
+
+// 麵包屑
+h5{
+    font-size: $fontSize  ; //16px
+    letter-spacing: $letterspacing - 3;
+    line-height: $lineheight;
+    font-family: $fontfamily;
+}
+
+// 內文 
+span{
+    font-size: $fontSize * ; //16px
+    letter-spacing: $letterspacing - 3;
     line-height: $lineheight;
     font-family: $fontfamily;
 }
